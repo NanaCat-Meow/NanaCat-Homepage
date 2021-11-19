@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: bisque;
+}
+
+#commonH {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+#commonH h1 {
+  text-align: center;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  margin: 80px;
+}
+
+#commonH h1 span {
+  font-size: 10px;
+}
+
+#commonH ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#commonH ul li {
+  width: calc(1280px / 6 - 5px);
+  text-align: center;
+  list-style: none;
+  background-color: #000000;
+}
+
+#commonH ul li a {
+  font-family: 'Yomogi', cursive;
+  text-decoration: none;
+  color: white;
+}
+
+#commonF {
+  width: 1280px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+#commonF p {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+#TopPicture {
+  margin: 0 auto;
+  width: 1280px;
+  height: 960px;
+  background-image: url(../img/Alpha_uns.png);
+}
+
+#About {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+#About #Mypic {
+  margin-right: 30px;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background-image: url(../img/Twitter_pic.jpg);
+}
+
+#About #Profile {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  margin-left: 30px;
+  width: 400px;
+}
+
+#About #Profile h2 {
+  font-size: 32px;
+}
+
+#About #Profile p:nth-of-type(1) {
+  margin-bottom: 20px;
+}
+
+#About #Profile #skills {
+  margin-bottom: 20px;
+}
+
+#About #Profile #skills ul {
+  margin-left: 25px;
+}
+
+#Product {
+  width: 1280px;
+  margin: 0 auto;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+#Product hr {
+  margin: 20px 0;
+}
+
+#Product h2 {
+  text-align: center;
+}
+
+#Product section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#Product section .pro {
+  width: calc(50% - 20px);
+  height: 200px;
+  border: #000 solid 1px;
+  border-radius: 10px;
+}
+
+#Product section .pro img {
+  position: relative;
+  left: 419.5px;
+  top: -97.5px;
+  border-radius: 10px;
+}
+
+#Product section .pro a {
+  display: block;
+  text-decoration: none;
+}
+
+#links {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 640px 640px;
+  grid-template-rows: 220px 220px;
+  grid-template-areas: "colum colum" "colum colum" "colum colum";
+}
+
+#links .commonLink {
+  display: flex;
+}
+
+#links .commonLink a {
+  background-color: bisque;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  box-shadow: 2px 2px 10px #fff, -2px 2px 10px #fff, 2px -2px 10px #777, -2px -2px 10px #777;
+  display: flex;
+  align-items: center;
+}
+
+#links .commonLink a img {
+  border-radius: 10px;
+  margin: 0 auto;
+  transition: 0.25s;
+}
+
+#links .commonLink a:hover img {
+  transition: 0.25s;
+  width: 140px;
+}
+
+#links .commonLink div {
+  margin: auto 0;
+  height: 90px;
+  margin-left: 20px;
+}
+
+#links .commonLink div h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+}
+
+#links .commonLink div p {
+  line-height: 30px;
+}
+
+#Topics {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+#Topics h2 {
+  text-align: center;
+}
+
+#Topics .Title {
+  margin: 10px auto;
+  height: 50px;
+  width: 960px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #777, -2px 2px 5px bisque, 2px -2px 5px bisque, -2px -2px 5px bisque;
+}
+
+#Topics .Title h3 {
+  margin-left: 30px;
+}
+
+#Topics .Title a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+#Minecraft {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+#Minecraft #Server {
+  height: 720px;
+  width: 1280px;
+  background-image: url(../img/7saba.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+}
+
+#Minecraft section h2 {
+  text-align: center;
+  margin: 10px;
+}
+
+#Minecraft section table {
+  margin: 0 auto;
+}
+
+#Minecraft section table tr td {
+  padding: 0 20px;
+}
+
+#Minecraft section section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#Minecraft section section #shot1,
+#Minecraft section section #shot4 {
+  width: 59%;
+  height: 300px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+#Minecraft section section #shot2,
+#Minecraft section section #shot3 {
+  width: 39%;
+  height: 300px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Minecraft section section #shot1 {
+  background-image: url(../img/ScreenShot2.png);
+}
+
+#Minecraft section section #shot2 {
+  background-image: url(../img/ScreenShot1.png);
+}
+
+#Minecraft section section #shot3 {
+  background-image: url(../img/ScreenShot3.png);
+}
+
+#Minecraft section section #shot4 {
+  background-image: url(../img/ScreenShot4.png);
+}
+
+#Contact {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+#Contact h2 {
+  text-align: center;
+}
+
+#Contact p {
+  text-align: center;
+}
+
+#Contact h3 {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
